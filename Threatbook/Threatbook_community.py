@@ -31,18 +31,8 @@ with open(source_file,'r') as file:
     original_len = len(resources)
 
 # Community API-keys
-apikey_collection = ['eb83a15542524bef9ffa11c5a5494ff0c6bae9f0ea8443fb85b1d654cac07efa',  # CSY personal email
-                     '0a84cc29519648fb95fa056fe3f68d83f6712aabed67470baf674e4cd5f752ad',  # CSY ifast email
-                     '1669f47fce494981b41bf897f28488e3271c1c0ec57045bfbb614f108ed7e5f0',  # YT
-                     '3814aa40d9c347fc9ea3da9b9575ffe14f42898718db484da12d354b87c7de0e',  # e86795661@gmail.com (pw:secops19246@)
-                     'a64995d1b00443e6af2c03f7dc8841f86b87d3f3664645d99e6039b3e9bc44a5',  # ChenYi 1
-                     'db140e78e6794a88803d17ea0e1a38f804728845cbe44a078745ae32dd04dcb6',  # ChenYi 2
-                     '1847bd98b7bc45b3890e77fddd48e3e5672fa90d4a194ac09c08353106aa9a77',  # dummy 1
-                    '849fd0796fc2436d9973607062cdaf80ef091f92ae8e459a918283acd86b316f',   # dummy 2
-                    '67c9acf85fe544f1b1acf34757037ad65f8dcdef1a8b439f97d2481eaf995870',   # dummy 3
-                    'b1f7520f1f64457b9deb5a5cc6fc231d8a31939fbb0d475384818b598286611e',   # dummy 4
-                    '62f32d5872b74522857936aa9c3d0f5440d46518a521425ea664144c22212e36'    # dummy 5
-                    ]
+apikey_collection = ['apikey1', 'apikey2', 'apikey3'] #replace the 'apikey' with your apikey from Threatbook
+                    
 
 total_apikeys = len(apikey_collection)
 
